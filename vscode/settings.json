@@ -1,0 +1,88 @@
+{
+    "telemetry.enableTelemetry": false,
+    "workbench.colorTheme": "One Dark Pro",
+    "editor.fontFamily": "'Fira Code', Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "window.zoomLevel": 1,
+
+    "editor.formatOnSave": true,
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "emmet.syntaxProfiles": {
+        "javascript": "jsx",
+        "html": "jsx"
+    },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "eslint.enable": true,
+    "eslint.validate": ["javascript", "javascriptreact"],
+    "eslint.run": "onType",
+    "eslint.autoFixOnSave": true,
+    "css.validate": false,
+    "scss.validate": false,
+    "javascript.format.enable": false,
+    "prettier.eslintIntegration": true,
+    "eslint.options": {
+        "configFile": "/home/ca/vivid/vivid-sales-bpo/.eslintrc",
+        "extensions": [".js", ".vue", ".jsx"]
+    },
+    "eslint.packageManager": "yarn",
+    "prettier.arrowParens": "always",
+    "prettier.tabWidth": 4,
+    "prettier.trailingComma": "es5",
+    "diffEditor.ignoreTrimWhitespace": true,
+    "workbench.statusBar.feedback.visible": false,
+    "emmet.triggerExpansionOnTab": true,
+    "search.smartCase": true,
+    "problems.decorations.enabled": true,
+    "html.format.indentHandlebars": true,
+    "emmet.showAbbreviationSuggestions": false,
+    "html.format.indentInnerHtml": true,
+    "html.format.preserveNewLines": true,
+    "html.format.maxPreserveNewLines": 1,
+    "editor.fontSize": 12,
+    "editor.lineHeight": 22,
+    "editor.letterSpacing": 0.5,
+    "files.trimTrailingWhitespace": true,
+    "editor.fontWeight": "400",
+    "editor.renderWhitespace": "all",
+    "search.useIgnoreFiles": true,
+    "terminal.integrated.setLocaleVariables": true,
+    "files.associations": {
+        "*.js": "javascript",
+        ".stylelintrc": "jsonc",
+        ".eslintrc": "jsonc"
+    },
+    "editor.minimap.enabled": false,
+    "editor.insertSpaces": true,
+    "files.autoSave": "onWindowChange",
+    "editor.wordWrap": "on",
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "editor.renderIndentGuides": false,
+    "typescript.check.npmIsInstalled": false,
+    "editor.detectIndentation": false,
+    "explorer.confirmDelete": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "explorer.confirmDragAndDrop": false,
+    "vsicons.projectDetection.autoReload": true,
+    "typescript.format.insertSpaceBeforeFunctionParenthesis": false,
+    "javascript.format.insertSpaceBeforeFunctionParenthesis": false,
+    "bracketPairColorizer.consecutivePairColors": [
+        "[]",
+        [
+            // CSS Color cycle
+            "#aabff9",
+            "#88a6f6",
+            "#5680f3"
+        ],
+        "Red" // Orphaned bracket color
+    ],
+    "git.autofetch": true,
+    "terminal.integrated.rendererType": "canvas",
+    "workbench.statusBar.visible": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "breadcrumbs.enabled": true,
+    "workbench.iconTheme": "vscode-icons",
+    "terminal.integrated.fontFamily": "Menlo,'Inconsolata for Powerline','Courier New', monospace",
+    "terminal.integrated.fontSize": 13
+}

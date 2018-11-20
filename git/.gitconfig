@@ -1,0 +1,28 @@
+[alias]
+	s = status -sb
+	cm = commit -m
+    cam = commit -am
+    co = checkout
+	cob = checkout -b
+    unstage = reset HEAD
+    undo-commit = reset --soft HEAD^
+    l = log --pretty=format:\"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]\" --decorate
+    g = log --oneline --decorate --graph
+    ll = log --pretty=format:\"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]\" --decorate --numstat
+    lds = log --pretty=format:\"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]\" --decorate --date=short
+    ld = log --pretty=format:\"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]\" --decorate --date=relative
+    cl = clone
+    pos=pull origin stage
+[color "status"]
+    added = green
+    changed = blue
+    untracked = magenta
+    deleted = red
+[user]
+	name = Carlos Arango
+	email = carlos.arango@vividseats.com
+[push]
+	default = simple
+[core]
+    editor = vim
+
